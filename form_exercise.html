@@ -14,23 +14,28 @@
 
 	<!-- Radio buttons -->
 	<br>
+	<div>
 	<label for = "Male">Male</label>
 	<input id = "Male" type="radio" name="gender" value = "male" required>
 	<label for = "Female">Female</label>
 	<input id = "Female" type="radio" name="gender" value = "female">
 	<label for = "Other">Other</label>
 	<input id = "Other" type="radio" name="gender" value = "other">
+	</div>
 
 	<!--Email and Password -->
 	<br>
-	<label for = "Email">Email:</label>
+	<div>
+	<label name = "email" for = "Email">Email:</label>
 	<input id = "Email" type="email" placeholder="your email" required>
 	<label id = "Password">Password:</label>
-	<input for = "Password" type="password" required title = "5 to 10 characters"
+	<input name = "password" for = "Password" type="password" required title = "5 to 10 characters"
 	pattern = ".{5,10}">
+	</div>
 
 	<!--Birthdate boxes-->
 	<br>
+	<div>
 	<label>Birthday:</label>
 	<select name = "Month" required>
 		<option value = "">Month</option>
@@ -48,11 +53,14 @@
 		<option>1999</option>
 		<option>1999</option>
 	</select>
+	</div>
 
 <!-- Conditions checkbox -->
 	<br>
+	<div>
 	<label for = "condition">I agree to the terms and conditions </label>
 	<input id = "condition" type="checkbox" required>
+	</div>
 	
 
 	<br>
